@@ -7,6 +7,13 @@
   <groupId>clinic.programmming</groupId>
   <artifactId>Maven-quick-start</artifactId>
   <version>1.0</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.7</version>
+        </dependency>
+    </dependencies>
     <build>
     <plugins>
       <plugin>
@@ -19,5 +26,8 @@
         </configuration>
       </plugin>
     </plugins>
+
+
+
   </build>
 </project>
